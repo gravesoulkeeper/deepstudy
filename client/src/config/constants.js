@@ -1,3 +1,3 @@
-const SERVER_IP = 'http://192.168.0.100:4000'
+const SERVER_IP = import.meta.env.VITE_SERVER_IP;
 
 export { SERVER_IP }
